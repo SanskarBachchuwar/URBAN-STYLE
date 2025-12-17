@@ -1,0 +1,22 @@
+{
+  "name": "urbanstyle-feedback-system",
+  "version": "1.0.0",
+  "description": "UrbanStyle Retail Feedback Management System",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run start:backend\" \"npm run start:frontend\""
+  },
+  "keywords": [
+    "feedback",
+    "analytics",
+    "retail",
+    "customer-feedback"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
